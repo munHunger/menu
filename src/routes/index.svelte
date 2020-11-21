@@ -16,6 +16,7 @@
 <script>
   import { onMount } from "svelte";
   export let menu;
+  let main;
   let dishes = {};
   let boundingBoxes = {};
   function scroll() {
@@ -54,7 +55,8 @@
   }
 
   function navTo(dish) {
-    window.scrollTo(0, window.scrollY + dishes[dish].getBoundingClientRect().y);
+    console.log(main.scrollTop);
+    main.scrollTo(0, main.scrollTop + dishes[dish].getBoundingClientRect().y);
   }
 </script>
 
@@ -64,7 +66,6 @@
     color: #ddd;
     font-family: "Montserrat", sans-serif;
   }
-
   .left {
     position: fixed;
     height: 100%;
@@ -77,6 +78,11 @@
     width: 30%;
     top: 10%;
     height: 80%;
+  }
+  @media only screen and (max-width: 600px) {
+    .image-wrapper {
+      width: 100%;
+    }
   }
 
   .image {
@@ -98,6 +104,11 @@
     text-orientation: mixed;
   }
 
+  @media only screen and (max-width: 600px) {
+    .dishes {
+      opacity: 0;
+    }
+  }
   .dish {
     display: inline-block;
     margin: 0.75rem;
@@ -135,12 +146,36 @@
   }
 
   .main {
+    background-color: rgba(17, 16, 20, 0.5);
+    padding: 0.5rem;
     position: absolute;
     top: 10%;
     left: 40%;
     height: 80%;
     width: 50%;
+    overflow: auto;
   }
+
+  @media only screen and (max-width: 600px) {
+    .main {
+      left: 10%;
+      width: 80%;
+    }
+  }
+
+  .main::-webkit-scrollbar {
+    width: 0.1em;
+  }
+
+  .main::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .main::-webkit-scrollbar-thumb {
+    background-color: rgb(51, 51, 51);
+    outline: 1px solid rgb(41, 44, 48);
+  }
+
   .step {
     padding: 0.5rem;
     margin: 0.25rem;
@@ -155,7 +190,7 @@
   /* Customize the label (the container) */
   .container {
     position: absolute;
-    right: 0;
+    right: 1rem;
     padding-right: 2rem;
     margin-bottom: 12px;
     cursor: pointer;
@@ -228,7 +263,7 @@
 <svelte:head>
   <title>Menu</title>
 </svelte:head>
-<svelte:window on:scroll={scroll} />
+
 <div class="left">
   <div class="image-wrapper">
     {#each menu.course as dish}
@@ -244,7 +279,7 @@
   </div>
 </div>
 
-<div class="main">
+<div class="main" bind:this={main} on:scroll={scroll}>
   {#each menu.course as dish}
     <div bind:this={dishes[dish.name]}>
       <h1>{dish.name}</h1>
@@ -277,4 +312,5 @@
       {/each}
     </div>
   {/each}
+  <div style="clear: both" />
 </div>
