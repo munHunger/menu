@@ -1,0 +1,192 @@
+course:
+  - name: Fröknäcke
+    src: 'https://www.ica.se/recept/froknacke-716579/'
+    description: Knäckebröd med diverse fröer
+    image: >-
+      https://tohercore.com/wp-content/uploads/2016/06/Paleo-vegetable-crackers-to-her-core-1-800x594.jpg
+    ingredients:
+      - name: sesamfrö
+        amount: 1 dl
+        available: true
+      - name: pumpakärnor
+        amount: 1 dl
+        available: true
+      - name: solroskärnor
+        amount: 1 dl
+        available: false
+      - name: majsmjöl
+        amount: 1 dl
+        available: true
+      - name: hela linfrö
+        amount: 1/2 dl
+      - name: salt
+        amount: 1/2 tsk
+      - name: rapsolja
+        amount: 1/2 dl
+      - name: kokande vatten
+        amount: 2 dl
+    steps:
+      - step: Sätt ugnen på 150°C.
+        done: false
+      - step: 'Lägg ett bakplåtspapper på en plåt, ca 30x40 cm (för 1 sats).'
+        done: false
+      - step: >-
+          Blanda alla torra ingredienser och rör i olja och vatten. Låt svälla
+          ca 15 minuter.
+      - step: >-
+          Bred ut smeten tunt på plåten. Grädda mitt i ugnen ca 1-1 1/2 timme.
+          Drag över bakplåtspappret med knäcket på ett galler och låt svalna.
+  - name: Spenatpaj
+    src: 'https://www.ica.se/recept/spenatpaj-130714/'
+    image: >-
+      https://i.pinimg.com/originals/8e/d3/44/8ed344c28dfa9980abe1734c500cd8f8.jpg
+    description: >-
+      Vacker och smakrik spenatpaj med en härligt krispig och god botten. Pajen
+      har en ljuvlig fyllning av spenat, vitlök och purjolök och tillsammans med
+      den krämiga äggblandningen blir det en härligt god paj.
+    ingredients:
+      - amount: 2 1/2 dl
+        name: vetemjöl
+      - amount: 1 krm
+        name: salt
+      - amount: 125 g
+        name: smör i tärningar
+      - amount: 2 msk
+        name: kallt vatten
+      - amount: 250 g
+        name: 'tinad, fryst bladspenat'
+      - amount: '1'
+        name: vitlöksklyfta
+      - amount: 1/2
+        name: purjolök
+      - amount: 2 msk
+        name: olivolja
+      - amount: ''
+        name: salt och peppar
+      - amount: '3'
+        name: ägg
+      - amount: 1 dl
+        name: crème fraiche
+      - amount: 2 dl
+        name: mjölk
+      - amount: 1 tsk
+        name: salt
+      - amount: 2 krm
+        name: peppar
+    steps:
+      - step: 'Sätt ugnen på 225ºC. '
+      - step: >-
+          Deg: Blanda vetemjöl, salt och smör i tärningar med fingertopparna i
+          en bunke eller använd matberedare. Tillsätt kallt vatten och knåda
+          snabbt ihop till en deg.
+      - step: >-
+          Lägg in den i kylen att vila i minst½ timme. Degen kan med fördel
+          göras en dag i förväg.
+      - step: >-
+          Kavla ut och lägg degen i en låg pajform, ca 24 cm i diameter (för 4
+          port). Tryck ut degen i formens botten och på kanten så att den täcks.
+          Nagga tätt i botten med en gaffel. Tryck fast en dubbelvikt
+          aluminiumfolieremsa runt kanten så att degkanten håller sig uppe under
+          gräddningen. Förgrädda pajskalet i nedre delen av ugnen i 10 minuter.
+          Ta ut och låt svalna.
+      - step: >-
+          Fyllning: Krama vätskan ur den tinade spenaten. Finhacka den.
+          Finstrimla purjolöken. Skala och grovhacka vitlöken. Fräs detta
+          hastigt i olivolja. Krydda med salt och peppar.
+      - step: >-
+          Äggblandning: Vispa ihop ägg, crème fraiche och mjölk. Smaksätt
+          äggblandningen med salt och svartpeppar. Blanda i spenatfräset.
+      - step: >-
+          Fyll pajskalet och ställ in i nedre delen av ugnen i 20-25 minuter. Ta
+          ut pajen och låt den svalna i 15-20 minuter. Servera pajen ljummen med
+          rökt lax och en fräsch sallad.
+  - name: Rårörda blåbär med vit chokladmousse
+    src: 'https://www.ica.se/recept/rarorda-blabar-med-vit-chokladmousse-453992/'
+    image: >-
+      https://i.pinimg.com/originals/f0/b5/52/f0b55258c9a5b1a3ca0b81964f04da17.jpg
+    description: >-
+      En ljuvligt god efterrätt gjort på rårörda blåbär och vit chokladmousse.
+      En utsökt smakkombination som lätt blir en favorit. Passar utmärkt som
+      avslutning på en festmåltid eller om du vill unna dig lite lyx i vardagen.
+    ingredients:
+      - amount: '3'
+        name: äggulor
+      - amount: 1 msk
+        name: strösocker
+      - amount: 100 g
+        name: vit choklad
+      - amount: 1 1/2 dl
+        name: vispgrädde
+      - amount: 4 dl
+        name: blåbär (eller osötade frysta)
+      - amount: 1 tsk
+        name: vaniljsocker
+      - amount: '5'
+        name: digestivekex
+      - amount: 1 msk
+        name: smör
+        available: false
+    steps:
+      - step: Vispa äggulor och socker poröst.
+      - step: >-
+          Smält chokladen i vattenbad, eller mikro (max 800 w) 1-2 minuter, och
+          vänd ner den i äggsmeten.
+      - step: >-
+          Vispa grädden och vänd ner även den. Låt stå i kylskåp 30 minuter före
+          servering.
+      - step: >-
+          Blanda blåbär med socker. Rör så att lite av bären mosar sig så att
+          det blir lite såsigt.
+      - step: Krossa digestivekexen grovt. Smält smöret och blanda det med smulorna.
+      - step: Lägg upp blåbär och mousse och strö på digestivesmulorna.
+  - name: "Griljerad julskinka med apelsinsenap och nötcrust\_"
+    image: 'https://www.cga.co.uk/wp-content/uploads/2019/11/iStock-1080232348.jpg'
+    src: >-
+      https://www.ica.se/recept/griljerad-julskinka-med-apelsinsenap-och-notcrust-724712/
+    description: >-
+      Klassisk julskinka med en twist! Här får julskinkan smak av den goda
+      griljeringen: senap smaksatt med apelsin, som täcks av ett frasigt lager
+      med valnötter, rostad lök och ströbröd.
+    ingredients:
+      - amount: '1 1,5'
+        name: 'digkokt julskinka (à ca 1,5 kg)'
+      - amount: 3 dl
+        name: skånsk senap
+      - amount: 1 msk
+        name: senapspulver
+        available: true
+      - amount: 2 msk
+        name: konc apelsinjuice
+      - amount: 1/2 msk
+        name: flytande honung
+      - amount: 2 dl
+        name: valnötter
+      - amount: 1 dl
+        name: rostad lök
+      - amount: 50 g gräslök
+        name: en gräslök
+        available: true
+      - amount: 1 1/2 msk
+        name: ströbröd
+      - amount: '1'
+        name: äggula
+      - amount: 1 msk
+        name: majsstärkelse eller potatismjöl
+    steps:
+      - step: 'Apelsinsenap: Rör ihop samtliga ingredienser.'
+        done: true
+      - step: >-
+          Nötcrust: Mixa nötter och rostad lök grovt i en matberedare. Ta ur
+          hälften och blanda med gräslöken, ställ åt sidan till servering. Mixa
+          resten med ströbrödet till ett fint smul.
+        done: true
+      - step: >-
+          Griljering: Sätt ugnen på 225°C. Rör ihop 1 dl apelsinsenap (för 1
+          julskinka), äggula och majsstärkelse. Lägg skinkan på ett ugnssäkert
+          fat. Torka av skinkan med hushållspapper. Sikta över majsstärkelse.
+          Bred griljeringen över skinkan. Strö på ca 1 dl nötcrust (för 1
+          julskinka).
+      - step: >-
+          Griljera skinkan mitt i ugnen 10–15 minuter eller tills den fått fin
+          färg. Låt svalna. Skär sedan i skivor och servera med apelsinsenap och
+          nötcrust.
