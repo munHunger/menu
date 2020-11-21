@@ -1,6 +1,60 @@
 course:
+  - name: Julmust
+    src: https://farbrorgron.se/vi-gor-egen-julmust/
+    description: Egengjord julmust
+    image: https://www.kopparbergs.se/wp-content/uploads/2015/09/L1450065-Edit-WEB.jpg
+    ingredients:
+      - name: finriven ingefära
+        amount: 2 msk
+      - name: vatten
+        amount: 5 dl
+      - name: råsocker
+        amount: 1 msk
+      - name: strösocker
+        amount: 1 1/2 msk
+      - name: russin
+        amount: 1 dl
+      - name: fikon
+        amount: 3
+      - name: katrinplommon
+        amount: 4
+      - name: finhackad ingefära
+        amount: 1 dl
+      - name: torkade och lätt krossade enbär
+        amount: 1 dl
+      - name: pomeransskal
+        amount: 2
+      - name: muskotblommor
+        amount: 2
+      - name: kryddnejlikor
+        amount: 4
+      - name: gröna kardemummakapslar
+        amount: 10
+      - name: hela stjärnanisar
+        amount: 2
+      - name: kanelstänger
+        amount: 5
+      - name: citronsyra
+        amount: 1-2 tsk
+      - name: vatten
+        amount: 1 + 2,5 l
+      - name: mörkt muscavadosocker
+        amount: 400 g
+      - name: sodastart
+        amount: 2 dl
+    steps:
+      - step: Blanda ingredienserna i en stor ren glasburk och täck dess öppning med en tygduk av något slag.
+      - step: Rör om i burken någon gång per dag och tillsätt dagligen 1 tsk riven ingefära och 1 tsk råsocker tills dess att den kommer igång.
+      - step: När du ser bubblor och att det fräser om sodastarten är den klar och du kan ta tag i nästa detalj i tillverkningen, mustbasen.
+      - step: Blanda alla ingredienser förutom sodastart och socker i en kastrull med 1 liter vatten.
+      - step: Koka upp och låt sjuda i ca 20 min.
+      - step: Blanda därefter i muscavadosockret så att det löser sig och tillsätt 2.5 liter vatten.
+      - step: Låt kastrullen stå i rumstemperatur i ca 12 h med alla ingredienser i.
+      - step: Sila av vätskan från blandningen genom ett durkslag och sila därefter vätskan igen genom en silduk eller en handduk så att alla små partiklar försvinner.
+      - step: Tillsätt 2 dl av sodastarten som du dessförinnan silat genom en silduk.
+      - step: När sodastarten har börjat bubbla och fräsa är det dags att göra själva mustbasen
   - name: Fröknäcke
-    src: 'https://www.ica.se/recept/froknacke-716579/'
+    src: "https://www.ica.se/recept/froknacke-716579/"
     description: Knäckebröd med diverse fröer
     image: >-
       https://tohercore.com/wp-content/uploads/2016/06/Paleo-vegetable-crackers-to-her-core-1-800x594.jpg
@@ -28,7 +82,7 @@ course:
     steps:
       - step: Sätt ugnen på 150°C.
         done: false
-      - step: 'Lägg ett bakplåtspapper på en plåt, ca 30x40 cm (för 1 sats).'
+      - step: "Lägg ett bakplåtspapper på en plåt, ca 30x40 cm (för 1 sats)."
         done: false
       - step: >-
           Blanda alla torra ingredienser och rör i olja och vatten. Låt svälla
@@ -37,7 +91,7 @@ course:
           Bred ut smeten tunt på plåten. Grädda mitt i ugnen ca 1-1 1/2 timme.
           Drag över bakplåtspappret med knäcket på ett galler och låt svalna.
   - name: Spenatpaj
-    src: 'https://www.ica.se/recept/spenatpaj-130714/'
+    src: "https://www.ica.se/recept/spenatpaj-130714/"
     image: >-
       https://i.pinimg.com/originals/8e/d3/44/8ed344c28dfa9980abe1734c500cd8f8.jpg
     description: >-
@@ -54,16 +108,16 @@ course:
       - amount: 2 msk
         name: kallt vatten
       - amount: 250 g
-        name: 'tinad, fryst bladspenat'
-      - amount: '1'
+        name: "tinad, fryst bladspenat"
+      - amount: "1"
         name: vitlöksklyfta
       - amount: 1/2
         name: purjolök
       - amount: 2 msk
         name: olivolja
-      - amount: ''
+      - amount: ""
         name: salt och peppar
-      - amount: '3'
+      - amount: "3"
         name: ägg
       - amount: 1 dl
         name: crème fraiche
@@ -74,7 +128,7 @@ course:
       - amount: 2 krm
         name: peppar
     steps:
-      - step: 'Sätt ugnen på 225ºC. '
+      - step: "Sätt ugnen på 225ºC. "
       - step: >-
           Deg: Blanda vetemjöl, salt och smör i tärningar med fingertopparna i
           en bunke eller använd matberedare. Tillsätt kallt vatten och knåda
@@ -101,7 +155,7 @@ course:
           ut pajen och låt den svalna i 15-20 minuter. Servera pajen ljummen med
           rökt lax och en fräsch sallad.
   - name: Rårörda blåbär med vit chokladmousse
-    src: 'https://www.ica.se/recept/rarorda-blabar-med-vit-chokladmousse-453992/'
+    src: "https://www.ica.se/recept/rarorda-blabar-med-vit-chokladmousse-453992/"
     image: >-
       https://i.pinimg.com/originals/f0/b5/52/f0b55258c9a5b1a3ca0b81964f04da17.jpg
     description: >-
@@ -109,7 +163,7 @@ course:
       En utsökt smakkombination som lätt blir en favorit. Passar utmärkt som
       avslutning på en festmåltid eller om du vill unna dig lite lyx i vardagen.
     ingredients:
-      - amount: '3'
+      - amount: "3"
         name: äggulor
       - amount: 1 msk
         name: strösocker
@@ -121,7 +175,7 @@ course:
         name: blåbär (eller osötade frysta)
       - amount: 1 tsk
         name: vaniljsocker
-      - amount: '5'
+      - amount: "5"
         name: digestivekex
       - amount: 1 msk
         name: smör
@@ -140,7 +194,7 @@ course:
       - step: Krossa digestivekexen grovt. Smält smöret och blanda det med smulorna.
       - step: Lägg upp blåbär och mousse och strö på digestivesmulorna.
   - name: "Griljerad julskinka med apelsinsenap och nötcrust\_"
-    image: 'https://www.cga.co.uk/wp-content/uploads/2019/11/iStock-1080232348.jpg'
+    image: "https://www.cga.co.uk/wp-content/uploads/2019/11/iStock-1080232348.jpg"
     src: >-
       https://www.ica.se/recept/griljerad-julskinka-med-apelsinsenap-och-notcrust-724712/
     description: >-
@@ -148,8 +202,8 @@ course:
       griljeringen: senap smaksatt med apelsin, som täcks av ett frasigt lager
       med valnötter, rostad lök och ströbröd.
     ingredients:
-      - amount: '1 1,5'
-        name: 'digkokt julskinka (à ca 1,5 kg)'
+      - amount: "1 1,5"
+        name: "digkokt julskinka (à ca 1,5 kg)"
       - amount: 3 dl
         name: skånsk senap
       - amount: 1 msk
@@ -168,12 +222,12 @@ course:
         available: true
       - amount: 1 1/2 msk
         name: ströbröd
-      - amount: '1'
+      - amount: "1"
         name: äggula
       - amount: 1 msk
         name: majsstärkelse eller potatismjöl
     steps:
-      - step: 'Apelsinsenap: Rör ihop samtliga ingredienser.'
+      - step: "Apelsinsenap: Rör ihop samtliga ingredienser."
         done: true
       - step: >-
           Nötcrust: Mixa nötter och rostad lök grovt i en matberedare. Ta ur
